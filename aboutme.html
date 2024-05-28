@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img class ="profile-icon" src="https://i.pinimg.com/736x/1f/32/8e/1f328eb960fbdc7aa6b51042d2789b34.jpg" alt="A pair of black headphones"></img>
+        <nav>
+            <ul>
+                <li><button onclick="MyPortfolio()">My Portfolio</button></li>
+                <li><button onclick="Home()">Home</button></li>
+                <li><button onclick="showDateTime()">Show Date/Time</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+        </section>
+
+       <section id="paragraph">
+            <h2>A brief description of myself and a photo!</h2>
+       </section> 
+            
+            <p>My name is Jonah, I'm 27 years old from Atlanta,Georgia. My current hobbies are: photography, videography, and videogames. Im currently studying to become a junior dev full stack web developer.</p>
+
+            <img class="Selfie" src="Foto-8.JPEG" alt="a picture of myself in all black">
+
+       </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jonah's Portfolio</p>
+    </footer>
+
+    <script>
+        function showDateTime() {
+            const now = new Date();
+            alert(`Current Date and Time: ${now}`);
+        }
+
+        function MyPortfolio() {
+            location.href = "work1.html";
+        }
+
+        function Home() {
+            location.href = "mainpage.html";
+        }
+
+    </script>
+</body>
+</html>

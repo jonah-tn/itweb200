@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Example 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <img class ="profile-icon" src="https://i.pinimg.com/736x/1f/32/8e/1f328eb960fbdc7aa6b51042d2789b34.jpg" alt="A pair of black headphones"></img>
+    <nav>
+        <ul>
+            <li><button onclick="Home()">Home</button></li>
+            <li><button onclick="showDateTime()">Show Date/Time</button></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h1>Portfolio Example 1</h1>
+    </section>
+
+    <h2>Wireframe JPG</h2>
+    <p>This image shows the wireframe for this project</p>
+    
+    <section class="work-details">
+        <img src="Portfolio Wireframe Figma.jpg" alt="Portfolio Wireframe Figma" style="width: 100%; height: auto;">
+        
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Jonah's Portfolio</p>
+</footer>
+
+<script>
+    function showDateTime() {
+        const now = new Date();
+        alert(`Current Date and Time: ${now}`);
+    }
+
+    function Home() {
+        location.href = "mainpage.html";
+    }
+    
+
+
+</script>
+</body>
+</html>
