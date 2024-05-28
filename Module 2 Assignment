@@ -1,0 +1,29 @@
+## Home Page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Home Page</h1>
+    </header>
+
+    <p>HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) work together harmoniously to create visually appealing and structured web pages. 
+       HTML serves as the backbone, providing the content and structure of the webpage through various elements such as headings, paragraphs, images, links, and more.</p>
+
+    <p>CSS, on the other hand, enhances the presentation and styling of these HTML elements. 
+       It allows developers to define how the content should be displayed on the webpage, including layout, fonts, colors, and other visual aspects. 
+       By separating the content (HTML) from its presentation (CSS), developers can maintain cleaner and more maintainable code, 
+       making it easier to update and modify the appearance of the webpage without altering its structure.
+    </p>
+</body>
+    
+<nav>
+    <a href="html_page.html">What is HTML?</a>
+    <a href="css_page.html">What is CSS?</a>
+</nav>
